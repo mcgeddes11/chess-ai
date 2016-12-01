@@ -1,5 +1,7 @@
 {
-	"data_url":  "http://www.computerchess.org.uk/ccrl/4040/CCRL-4040.%5B664473%5D.pgn.7z",
+	"data_url":  "http://www.computerchess.org.uk/ccrl/4040/games.html",
 	"data_repository":  "C:\\data\\chess-ai-repo",
-	"data_file_chunks":  1000
+	"data_file_chunks":  1000,
+	"7z_path":  "C:\\Program Files\\7-Zip\\7z.exe",
+	"stockfish_path":  "C:\\Code\\stockfish\\stockfish_8_x32"
 }
