@@ -28,7 +28,7 @@ if __name__ == "__main__":
         if link.has_attr('href'):
             if "7z" in link["href"] and "CCRL-4040" not in link["href"]:
                 file_list.append(config["data_url"].replace("games.html","") + link['href'])
-    config["file_list"] = file_list[0:155]  # For testing
+    config["file_list"] = file_list[0:2]  # For testing
 
     # Create data repository if it doesn't yet exist
     createOutputDirectoryFromFilename(os.path.join(config["data_repository"],"fu.txt"))
@@ -46,9 +46,8 @@ if __name__ == "__main__":
     tasks = []
 
     # TASKS:
-    # 1.  Download input file
-    # 2.  Split file into chunks
-    # 3.  Generate list of unique positions
+    # 1.  Download input files
+    # 2.  Generate list of unique positions
     # 3.  Generate feature matrix for each unique position (and it's permutation?)
     # 4.  Run Stockfish to generate position scores
     # 5.  Build some models

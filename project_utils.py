@@ -28,6 +28,13 @@ def get_file_list(config):
         file_list.append(os.path.join(config["data_repository"],"split_data",str(n).zfill(4) + ".pgn"))
     return file_list
 
+def isnumeric(num_string):
+    try:
+        int(num_string)
+        return True
+    except:
+        return False
+
 def processFeatures(board):
     d = {"SideToMove": 0,
          "CastlingRights": numpy.zeros((4, 1)),
@@ -180,3 +187,8 @@ def processFeatures(board):
 
 
     return cols, data;
+
+
+def processFeaturesForNeuralNet(board):
+    print board
+    return board

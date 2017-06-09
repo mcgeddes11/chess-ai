@@ -1,0 +1,65 @@
+
+LCEtxtMining/
+BackUp/
+.idea/
+.metadata/
+.recommenders/
+model/
+brown-cluster-master/
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+RemoteSystemsTempFiles/.project
+LogbookCabinExcellence/EntityExtraction/Tetrachrome/.settings/org.eclipse.wst.common.project.facet.core.xml
+LogbookCabinExcellence/EntityExtraction/Tetrachrome/.settings/org.eclipse.wst.common.component
+
+ATAClassification/ATAClassificationDictionary/ATAtitle_737_master.csv
+ATAClassification/ATAClassificationDictionary/ATAtitle_737_temp_master_base.xlsx
+ATAClassification/ATAClassificationDictionary/ActionTerm.csv
+ATAClassification/ATAClassificationDictionary/Not_Applicable_Equivalent_Term.csv
+ATAClassification/ATAClassificationDictionary/Stopwords_Aviation.csv
+ATAClassification/ATAClassificationDictionary/StructuralTerm.csv
+ATAClassification/ATAClassificationDictionary/term_dictionary_update - Origin.csv
+ATAClassification/ATAClassificationDictionary/term_dictionary_update.csv
+*.ipynb
+perfMetric1.xlsx
+test2.xlsx
+word2vec_transformer.pickle
